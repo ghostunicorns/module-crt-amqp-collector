@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © GhostUnicorns All rights reserved.
+  ~ See LICENSE and/or COPYING.txt for license details.
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="GhostUnicorns\CrtAmqpCollector\Api\CollectorRepositoryInterface" type="GhostUnicorns\CrtAmqpCollector\Model\CollectorRepository"/>
+    <preference for="GhostUnicorns\CrtAmqpCollector\Api\Data\CollectorInterface" type="GhostUnicorns\CrtAmqpCollector\Model\CollectorModel"/>
+    <preference for="GhostUnicorns\CrtAmqpCollector\Api\Data\CollectorSearchResultInterface" type="GhostUnicorns\CrtAmqpCollector\Model\CollectorSearchResult"/>
+</config>
